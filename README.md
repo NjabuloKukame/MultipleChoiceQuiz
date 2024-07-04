@@ -7,14 +7,14 @@ Food, History, and Pop Culture. Users can choose the number of questions they wa
 will randomly select questions from the chosen genres.
 
 ## Features
-- **Multiple Categories**: Art, Sport, Food, History, and Technology questions.
+- **Multiple Categories**: Art, Sport, Food, History, and Pop Culture questions.
 - **Customizable Quiz Length**: Choose between 5 to 25 questions per quiz.
 - **Randomized Questions**: Questions are randomly selected to provide a unique experience each time.
 - **Score Tracking**: The app keeps track of your score throughout the quiz.
 - **Answer Review**: Option to review correct answers at the end of the quiz.
 
 ## How to Use
-1. **Start the Application**: Run the `QuizApp.java` file to start the application.
+1. **Start the Application**: Run the `MultipleChoiceQuiz.java` file to start the application.
 2. **Select Number of Questions**: You will be prompted to choose the number of questions you want to answer (between 5 and 25).
 3. **Answer Questions**: The app will display questions one by one. Enter your answer and proceed to the next question.
 4. **View Score**: At the end of the quiz, your score will be displayed.
@@ -22,9 +22,8 @@ will randomly select questions from the chosen genres.
 
 
 ## Project Structure
-- `QuizApp.java`: The main application file.
-- `Question.java`: The class that defines the structure of a question.
-- `QuestionsBank.java`: Contains the list of questions for each category.
+- `MultipleChoiceQuiz.java`: The main application file.
+- `AllQuestions.java`: The class that defines the structure of a question and contains the list of questions for each category.
 - `README.md`: This readme file.
 
 ## Contributing
